@@ -1,5 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <CardView/>
 </template>
+
+<script>
+import CardView  from '@/components/CardView.vue'
+export default {
+  components: {
+    CardView
+  }
+}
+</script>
+
+<style>
+
+</style>
